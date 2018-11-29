@@ -20,6 +20,17 @@
 package com.example;
 
 /*
+ * com.example.* 
+ * Tiene ejemplos basicos de java core.
+ * 
+ * HolaMundo : Descripcion del projecto conceptos iniciales
+ * SumaResta : Operaciones aritmeticas
+ * Intervalos : Arreglos, instrucciones for
+ * Bidimensionales: Arreglos bidimensionales
+ * 
+ */
+
+/*
  * Estandar de nombrado de paquetes:
  * Como estandar los paquetes son nombrados como el domain de la compania por ejemplo:
  * com.mycompania
@@ -71,7 +82,7 @@ public class HolaMundo {
 	 * 
 	 * Ejecute la clase usando Run As -> Run as Java Application.
 	 */
-	
+		
 	/*
 	 * CONVENCIONES DE NOMBRADO:
 	 * Entiendase como convenciones de nombramiento como todas las reglas
