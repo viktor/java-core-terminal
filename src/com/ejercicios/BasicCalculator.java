@@ -33,9 +33,7 @@ public class BasicCalculator {
 			 System.out.println(a+"+"+b+"="+resultado);
 			 break;
 		  
-		  }
 		  
-		  switch (selec) {
 		  case "b":
 			  System.out.println("usted a seleccionado resta \n ");
 			  System.out.println("ingrese el primer numero \n ");
@@ -46,9 +44,7 @@ public class BasicCalculator {
 			 System.out.println(a+"-"+b+"="+resultado);
 			 break;
 		  
-		  }
-		   
-		  switch (selec) {
+		
 		  case "c":
 			  System.out.println("usted a seleccionado multiplicacion\n ");
 			  System.out.println("ingrese el primer numero \n ");
@@ -59,9 +55,7 @@ public class BasicCalculator {
 			 System.out.println(a+"*"+b+"="+resultado);
 			 break;
 		  
-		  }
-		  
-		  switch (selec) {
+		 
 		  case "d":
 			  System.out.println("usted a seleccionado divicion \n ");
 			  System.out.println("ingrese el primer numero \n ");
@@ -72,8 +66,7 @@ public class BasicCalculator {
 			 System.out.println(a+"/"+b+"="+resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		 
 		  case "e":
 			  System.out.println("usted a seleccionado promedio \n ");
 			  System.out.println("ingrese el primer numero \n ");
@@ -84,8 +77,7 @@ public class BasicCalculator {
 			 System.out.println(a+"+"+b+"/2 ="+resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		  
 		  case "f":
 			  System.out.println("usted a seleccionado funcion cuadratica \n ");
 			  System.out.println("ingrese el primer valor  \n ");
@@ -100,6 +92,7 @@ public class BasicCalculator {
 			 System.out.println("la funcion cuadratica de x1   es "+x1);
 			 System.out.println("la funcion cuadratica de x2   es "+x2);
 			 break;
+		  default:System.out.println("la opcion que usted eligio no esta en la el menu de opciones");
 		  
 		  }
 		   
