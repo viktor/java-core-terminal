@@ -25,6 +25,7 @@ public class ClaseMath {
 		  selec = cap.next();
 		  switch (selec) {
 		  case "a":
+		  
 			  System.out.println("usted a seleccionado valor absoluto \n ");
 			  System.out.println("ingrese un numero \n ");
 			  a=cap.nextInt();
@@ -32,10 +33,11 @@ public class ClaseMath {
 			 System.out.println("el valor absoluto de es " +resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		  
+		    
 		  case "b":
-			  System.out.println("usted a seleccionado valor minimo \n ");
+		  
+		      System.out.println("usted a seleccionado valor minimo \n ");
 			  System.out.println("ingrese el primer numero \n ");
 			  a=cap.nextInt();
 			  System.out.println("ingrese el segundo numero \n ");
@@ -44,9 +46,9 @@ public class ClaseMath {
 			 System.out.println("el valor minimo entre "+a+" y "+b+" es " +resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		  
 		  case "c":
+		  
 			  System.out.println("usted a seleccionado valor maximo \n ");
 			  System.out.println("ingrese el primer numero \n ");
 			  a=cap.nextInt();
@@ -56,9 +58,10 @@ public class ClaseMath {
 			 System.out.println("el valor maximo entre "+a+" y "+b+" es " +resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		  
+		  
 		  case "d":
+		  
 			  System.out.println("usted a seleccionado redondeo de un numero \n ");
 			  System.out.println("ingrese un numero \n ");
 			  c=cap.nextDouble();
@@ -66,20 +69,19 @@ public class ClaseMath {
 			 System.out.println("el redondeo de "+c+" es " +resultado);
 			 break;
 		  
-		  }
-		  switch (selec) {
+		 
 		  case "e":
+		 
 			  System.out.println("usted a seleccionado random \n ");
 			  System.out.println("ingrese el primer numero \n ");
 			  a=cap.nextInt();
 			 resultado= (int) Math.random();
 			 System.out.println("el valor random es "+resultado);
 			 break;
-	
-	    }
 		  
-		  switch (selec) {
+	   
 		  case "f":
+		  
 			  System.out.println("usted a seleccionado potencia \n ");
 			  System.out.println("ingrese el primer numero \n ");
 			  a=cap.nextInt();
@@ -88,18 +90,19 @@ public class ClaseMath {
 			 resultado= (int) Math.pow(a,b);
 			 System.out.println("el numero "+a+" elevado a "+b+" es "+resultado);
 			 break;
-	
-	    }
 		  
-		  switch (selec) {
+	 
 		  case "g":
+		  
 			  System.out.println("usted a seleccionado raiz cuadrada \n ");
 			  System.out.println("ingrese un numero \n ");
 			  a=cap.nextInt();
 			 resultado= (int) Math.sqrt(a);
 			 System.out.println("la rai cuadrada de "+a+" es "+resultado);
 			 break;
-	
+		 
+		  default:System.out.println("la opcion que usted eligio no esta en la el menu de opciones");
+		  
 	    }
 		  
 		  
