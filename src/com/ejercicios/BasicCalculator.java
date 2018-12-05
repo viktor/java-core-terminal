@@ -4,15 +4,16 @@ import java.util.Scanner;
 public class BasicCalculator {
 	public static void main(String[] args) {
 		
-		   Scanner cap = new Scanner(System.in);
+		   @SuppressWarnings("resource")
+		Scanner cap = new Scanner(System.in);
 		   String selec = null;
 		   System.out.println("calculadora de jared ");
-		  int a;
-		  int b;
-		  int c;
-		  int x1;
-		  int x2;
-		  int resultado;
+		  int  a = 0;
+		  int b = 0;
+		  int c= 0;
+		  int x1 = 0;
+		  int x2 = 0;
+		  int resultado = 0;
 		
 		  System.out.println("seleccione un literal de para la operacion que usted desea \n ");
 		  System.out.println("a) suma \n "
@@ -20,7 +21,8 @@ public class BasicCalculator {
 		  		+ "c) multiplicacion\n"
 		  		+ "d) divicion \n"
 		  		+ "e) promedio \n"
-		  		+ "f) funcion cuadrattica \n");
+		  		+ "f) funcion cuadrattica \n"
+		  		+ "g) factorial de un numero \n");
 		  selec = cap.next();
 		  switch (selec) {
 		  case "a":
@@ -92,15 +94,31 @@ public class BasicCalculator {
 			 System.out.println("la funcion cuadratica de x1   es "+x1);
 			 System.out.println("la funcion cuadratica de x2   es "+x2);
 			 break;
-		  default:System.out.println("la opcion que usted eligio no esta en la el menu de opciones");
+			 
+		  case "g":
+			
+			  System.out.println("usted a seleccionado factorial de un numero \n ");
+			  System.out.println("ingrese el primer valor  \n ");
+			 a=cap.nextInt();
+			 System.out.println("el numero factorial de " +a+ " es " +factorial(a));
+				
 		  
 		  }
-		   
-		   
-		   
-		  
-		   
-		  }
+	
+
+	
+	}
+	public static  double factorial  (int n) {
+		
+		double aux=1;
+		for (int i=1; i<= n; i++) {
+			
+			aux*=i;
+			
+		}
+		return aux;
+	}
+	}
+
 	
 	
-}
