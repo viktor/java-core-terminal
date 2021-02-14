@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><CD>
+    <Secciones>
+        <Codigo>33234</Codigo>
+        <Interna>cd0001</Interna>
+        <Titulo>Pet sounds</Titulo>
+        <Artista>Bryan wilson</Artista>
+        <Duracion>2:00</Duracion>
+        <Numero_de_Canciones>6</Numero_de_Canciones>
+        <Unidades_Disponibles>20</Unidades_Disponibles>
+    </Secciones>
+</CD>
